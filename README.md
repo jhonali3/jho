@@ -1,11 +1,19 @@
-<div align="center">
+# Jhonalie Jotajero — Personal Portfolio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A responsive, user-friendly personal portfolio built with semantic HTML5, Tailwind CSS, React, and TypeScript.
 
-  <h1>Built with AI Studio</h2>
+## Local Development
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+npm install
+npm run dev
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deploying to GitHub Pages
 
-</div>
+Because this project uses Vite + React + TypeScript, GitHub Pages needs the built `dist/` bundle rather than raw source files:
+
+1. Push your code (including `.github/workflows/deploy.yml`) to the `main` branch on GitHub.
+2. In your GitHub repository, open **Settings → Pages**.
+3. Under **Build and deployment → Source**, select **GitHub Actions**.
+4. Wait 1–2 minutes for the workflow to finish, then visit `https://jhonali3.github.io/CIT-240/`.
